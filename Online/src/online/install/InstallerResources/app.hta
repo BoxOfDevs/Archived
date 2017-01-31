@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel='stylesheet' href='css.css' />
+<hta:application 
+APPLICATIONNAME = "Online wizard installer"
+ID = "OnlineInstaller"
+CAPTION = "No"
+CONTEXTMENU = "No"
+INNERBORDER = "No"
+NAVIGABLE="true"
+SCROLL = "YES"
+SCROLLFLAT = "YES"
+SINGLEINSTANCE = "Yes"
+ICON="Online.ico"
+SYSMENU = "No"/> 
+<script type='text/vbscript'> Sub Window_onload()
+Me.ResizeTo 900,500
+Me.MoveTo Screen.Width /2 - 300,Screen.Height / 2 - 300
+End Sub
+</script>
+<script type="text/javascript">
+function closeWin() {
+close();
+}
+</script>
+</head>
+<body>
+<br>
+<nav><p> </p><img src='Online.ico' style='float: left;'><button onclick='close()' style='float: right;'>Close installer</button><h2>Online installer wizard</h2><br><hr></nav>
+<div id='content'><iframe src="page1.html" width="100%" height="55%" scrolling="no" seamless="seamless" application='yes'></iframe></div>
+<button onclick='nextPage()' id="next">Next</button>
+<script type="text/javascript">
+var page = 1;
+function nextPage() {
+switch(page) {
+  case 1:
+  document.getElementById("content").innerHTML= "<iframe src='page2.html' width='100%' height='55%' scrolling='no' seamless='seamless' application='yes'></iframe>";
+  document.getElementById("next").innerHTML= "I aggree with the license";
+  page++;
+  break;
+  case 2:
+  document.getElementById("content").innerHTML= "<iframe src='page3.html' width='100%' height='55%' scrolling='no' seamless='seamless' application='yes'></iframe>";
+  document.getElementById("next").innerHTML= "Next";
+  page++;
+  break;
+  case 3:
+  document.getElementById("content").innerHTML= "<iframe src='page4.html' width='100%' height='55%' scrolling='no' seamless='seamless' application='yes'></iframe>";
+  page++;
+  break;
+  default:
+  window.close();
+  break;
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+---
+
+#  _____       _      _  ___ _          __   ___   ___  
+# |  __ \     | |    | |/ (_) |        /_ | / _ \ / _ \ 
+# | |__) |   _| | ___| ' / _| |_  __   _| || | | | | | |
+# |  _  / | | | |/ _ \  < | | __| \ \ / / || | | | | | |
+# | | \ \ |_| | |  __/ . \| | |_   \ V /| || |_| | |_| |
+# |_|  \_\__,_|_|\___|_|\_\_|\__|   \_/ |_(_)___(_)___/ 
+# 
+
+# The message which appears players when they join
+# Use § to colour the text
+RulesJoinMsg: "§6Please run /rules 1|2 to see the server rules!" 
+
+# Custom rules which show up when /rules 1|2 is run
+# Use § to colour the text
+Rule1: "No Swearing"
+Rule2: "No Using Mods"
+Rule3: "No Advertising"
+Rule4: "No Asking For OP"
+Rule5: "No Asking For Creative"
+Rule6: "Have Fun :)"
+Rule7: "No Griefing"
+Rule8: "Another Rule"
+Rule9: "Another Rule"
+Rule10: "Another Rule"
+
+...

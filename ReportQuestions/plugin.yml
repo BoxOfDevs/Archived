@@ -1,0 +1,34 @@
+name: ReportQuestions
+description: An easy way for players to report players or ask the server staff questions!
+version: 1.0
+author: BoxOfDevs Team
+main: ReportQuestions\Main
+api:
+- 2.0.0
+website: boxofdevs.com
+prefix: §0§l[§r§bReportQuestions§0§l]§r
+commands:
+    report:
+        usage: "/report <player> <reason>"
+        description: "Report Player"
+    ask:
+        usage: "/ask <question>"
+        description: "Ask Staff A Question (Even When They Are Offline)"
+    view:
+        usage: "/view <report|question> <player> <ID>"
+        description: "View Report/Question"
+    warn:
+        usage: "/warn <player>"
+        description: "Warn Player"
+permissions:
+    reportquestions:
+        default: false
+        children:
+            reportquestions.report:
+                default: true
+            reportquestions.ask:
+                default: true
+            reportquestions.view:
+                default: op
+            reportquestions.warn:
+                default: op

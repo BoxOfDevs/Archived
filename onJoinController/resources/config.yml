@@ -1,0 +1,14 @@
+#onJoinController config file
+#This plugin should not be redistributed nor steal codes from it without the author's permission
+#When adding/changing commands, do not use / at the begining 
+#The command should be runned when someone joins
+#Available Variables: {player}, {onlineplayers}, {maxplayers}
+---
+#Select whether or not to enable the features of the plugin
+enabled: true
+
+#You can add commands by duplicating the two example commands below and by editing it
+commands:
+- tell {player} Thank you for using onJoinController!
+- say Testing
+...

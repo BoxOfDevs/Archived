@@ -1,0 +1,49 @@
+---
+name: WorldPainter
+author:  BoxOfDevs
+authors: 
+ - Ad5001
+version: 1.0
+api: [2.0.0]
+main: BoxOfDevs\WorldPainter\Main
+commands: 
+
+
+   /wpwand:
+     description: "Get WorldPainter wand"
+     usage: //wpw
+     aliases: [/wpw]
+     permission: wp.wand
+     
+     
+   /mode:
+     description: "Switch your mode of WorldPainter"
+     usage: //mode <mode>
+     permission: wp.mode
+     aliases: [/m]
+     
+     
+   /radius:
+     description: "Change radius of your mode"
+     usage: //radius <radius>
+     permission: wp.radius
+     aliases: [/r]
+     
+     
+   /block:
+     description: "Change block of your mode"
+     usage: //block <blockid[%<percentage>,<blockid>%<percentage>,...]>
+     permission: wp.block
+     aliases: [/b]
+permissions: 
+  wp.wand:
+    default: op
+  wp.mode:
+    default: op
+  wp.radius:
+    default: op
+  wp.block:
+    default: op
+  wp.use:
+    default: op
+...

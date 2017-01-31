@@ -1,0 +1,19 @@
+---
+name: FileManager
+author:  BoxOfDevs
+authors:
+ - Ad5001
+version: 1.1
+api: [2.0.0]
+main: BoxOfDevs\FileManager\Main
+commands: 
+    manage-files:
+       description: "FileManager main command"
+       usage: "/manage-files"
+       permission: filemanager.manage-files
+permissions:
+   filemanager.manage-files:
+      default: op
+   filemanager.delete-files:
+      default: false
+...

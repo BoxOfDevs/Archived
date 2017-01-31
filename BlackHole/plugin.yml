@@ -1,0 +1,8 @@
+name: BlackHole
+author: BoxOfDevs
+version: 1.0
+api: 
+- 1.0.0
+- 2.0.0
+description: get sucked into a position just for fun!
+main: BoxOfDevs\BlackHole\Main

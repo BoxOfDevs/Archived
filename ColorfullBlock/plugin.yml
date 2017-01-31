@@ -1,0 +1,16 @@
+---
+name: ColorfullBlock
+author:  BoxOfDevs Team
+version: 1.0
+api: [2.0.0, 1.14.0]
+main: BoxOfDevs\ColorfullBlock\Main
+commands: 
+    createcolorblock:
+       description: Create a colorful block
+       usage: /createcolorblock [x] [y] [z] or /createcolorblock [player]
+       permission: cfb.create
+       aliases: [ccb]
+permissions: 
+   cfb.create:
+      default: op
+...

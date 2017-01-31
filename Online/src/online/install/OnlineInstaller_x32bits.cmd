@@ -1,0 +1,1 @@
+mshta %~dp0InstallerResources\app.hta

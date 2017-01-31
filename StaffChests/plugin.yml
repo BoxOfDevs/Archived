@@ -1,0 +1,28 @@
+name: StaffChests
+author: BoxOfDevs Team
+authors:
+- TheDragonRing
+version: 1.0
+description: Want your chests to require a key and have another crazy feature? StaffChests is here!
+api:
+- 1.14.0
+- 2.0.0
+main: StaffChests\Main
+load: STARTUP
+commands:
+    staffchest:
+        usage: "/staffchest chest|key"
+        description: "Gets a StaffChest or a StaffKey"
+        permission: staffchests.locked
+    loopychest:
+        usage: "/loopychest"
+        description: "Gets an absolutely loopy LoopyChest"
+        permission: staffchests.loopy
+permissions:
+    staffchests:
+        default: false
+        children:
+            staffchests.locked:
+                default: OP
+            staffchests.loopy:
+                default: true

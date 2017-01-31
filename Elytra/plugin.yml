@@ -1,0 +1,11 @@
+---
+name: Elytra
+author:  BoxOfDevs Team
+version: 1.2
+api: [2.0.0]
+main: BoxOfDevs\Elytra\Main
+commands: []
+permissions:
+   elytra.use:
+      default: true
+...

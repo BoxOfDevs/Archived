@@ -1,0 +1,41 @@
+html, body {
+background color: #fff
+ padding: 10;
+ font-size: 90%;
+ line-height: 2.1em;
+ margin: 0;
+ padding: 0;
+ display: table;
+}
+h1 {font-family: Arial;
+ color: #000;
+ font-size: 3em;
+ text-align: center;
+}
+h2 {font-family: Arial;
+ color: #000;
+ font-size: 1.5em;
+ text-transform: uppercase;
+ text-align: center;
+}
+h3 
+{font-family: Arial;
+ color: #666;
+ font-size: 1em;
+ text-transform: uppercase;
+ text-align: center;
+}
+h4
+{font-family: Arial;
+ color: #666;
+ font-size: 0.5em;
+ text-transform: uppercase;
+ text-align: center;
+}
+button {
+ font-family: Arial;
+ color: #666;
+ font-size: 1em;
+ text-transform: uppercase;
+ align: center;
+}

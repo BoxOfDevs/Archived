@@ -1,0 +1,53 @@
+name: SWKits
+author: Taki21
+main: Taki21\Main
+api: [2.0.0]
+version: 0.0.1
+commands:
+ kit1:
+  usage: /kit1
+  description: null
+  
+ kit2:
+  usage: /kit2
+  description: null
+  
+ kit3:
+  usage: /kit3
+  description: null
+  
+ kit4:
+  usage: /kit4
+  description: null
+  
+ kit5:
+  usage: /kit5
+  description: null
+  
+ k1u:
+  usage: /k1u
+  description: null
+  
+ k2u:
+  usage: /k2u
+  description: null
+  
+ k3u:
+  usage: /k3u
+  description: null
+  
+ k4u:
+  usage: /k4u
+  description: null
+  
+ k5u:
+  usage: /k5u
+  description: null
+  
+ mycoins:
+  usage: /mycoins
+  description: null
+  
+ ac:
+  usage: /ac
+  description: null

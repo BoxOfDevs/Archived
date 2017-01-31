@@ -1,0 +1,23 @@
+---
+name: RealVanish
+author:  BoxOfDevs Team
+version: 1.0
+api: [2.0.0]
+main: BoxOfDevs\RealVanish\Main
+commands: 
+    vanish:
+       description: "Vanish yourself!"
+       usage: "/vanish"
+       permission: vanish.vanish
+       aliases: [v]
+    unvanish:
+       description: "Unvanish yourself!"
+       usage: "/unvanish"
+       permission: vanish.unvanish
+       aliases: [uv]
+permissions: 
+    vanish.vanish:
+      default: op
+    vanish.unvanish:
+      default: op
+...

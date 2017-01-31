@@ -1,0 +1,15 @@
+# SingleAuth  config:
+# Set server password here
+UniversalPassword: ""
+
+# The messages below this line will be used on certain action (depending on the message)
+AuthJoinMessage: "Welcome to the Server! Run /login <password> to play" # This message will be sent to a player when they join
+SucessLoginMessage: "You have been logged in!" # This message will be displayed when the player enter the good password
+AlreadyAuthMessage: "You are already logged in" # This message will be used when a player run the loggin command and he is authed
+WrongPasswordMessage: "Wrong password" # This message will be displayed when a player enter a wrong password
+PlayerBeforeAuthMessage: "You need to login before you can play" # This message will be displayed when a player tries to move, chat or run a command before they login
+
+isPlayerOnline: false # Do NOT modify that
+
+# Below this line, will be all player authed.
+# Just delete line of the player to unauth him

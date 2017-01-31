@@ -1,0 +1,8 @@
+name: MultiLanguage
+main: Mcrafters\MultiLanguage\Main
+version: 1.0.0-beta1
+api: [2.0.0]
+author: Mcrafters
+authors: [Driesboy, Survingo]
+description: Multi Language Plugin for PocketMine-MP
+website: mcrafters.ml

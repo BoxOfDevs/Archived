@@ -1,0 +1,13 @@
+<head>
+<link rel='stylesheet' href='css.css' />
+</head>
+<script>
+var loc = window.location.pathname;
+document.getElementById('path').value = loc.substring(0, loc.lastIndexOf('/'));
+var path = document.getElementbyId('path').value;
+
+</script>
+<body>
+<textarea id="path"></textarea>
+<button id="confirm">Next</button>
+</body>

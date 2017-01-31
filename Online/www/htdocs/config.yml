@@ -1,0 +1,17 @@
+# Welcome to Online config !
+
+#This define the port that your website that will run.
+#****NOTE THAT YOU WILL NEED TO RE-PORTFOREWARD WITH THE NEW PORT****
+port: 80
+
+# Here you can choose the pages !
+index: index.html
+404: 404.html
+403: 403.html
+
+# Here you can config pages that user will not be able to see !
+denied-pages:
+  - config.yml
+  
+  # Here you can configure the refresh in tick (20 tick = 1s)
+TimePerConnection: 20

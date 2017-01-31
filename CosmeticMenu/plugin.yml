@@ -1,0 +1,12 @@
+name: CosmeticMenu
+main: BoxOfDevs\Cosmetic\Main
+version: 1.0.0
+api: 
+- 2.0.0
+- 1.14.0
+load: POSTWORLD
+author: BoxOfDevs
+authors:
+- LittleBigMC
+- TheKnightGamer
+- Ad5001

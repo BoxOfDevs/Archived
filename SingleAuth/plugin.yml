@@ -1,0 +1,40 @@
+name: SingleAuth
+version: 1.0.0
+author: BoxOfDevs Team
+api: [1.14.0, 2.0.0]
+main: BoxOfDevs\SingleAuth\Main
+commands:
+    login:
+        usage: "/login <password>"
+        description: "Logs into the server"
+        permission: singleauth.login
+        aliases: [log]
+    checkpass:
+        usage: "/checkpass"
+        description: "Shows the universal password for the server"
+        permission: singleauth.cp
+        aliases: [cp]
+    setpassword:
+        usage: "/setpassword <password>"
+        description: "Sets the universal password for the server"
+        permission: singleauth.sp
+        aliases: [sp]
+    logout:
+        usage: "/logout [player]"
+        description: "Logs out of the server"
+        permission: singleauth.logout
+        aliases: [out]
+permissions:
+    singleauth:
+        default: false
+        children:
+            singleauth.login:
+                default: true
+            singleauth.cp:
+                default: false
+            singleauth.sp:
+                default: false
+            singleauth.logout:
+                default: true
+            singleauth.logoutother:
+                default: op

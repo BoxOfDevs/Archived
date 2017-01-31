@@ -1,0 +1,27 @@
+name: RuleKit
+author: TheDragonRing
+version: 1.0.0
+description: A simple rules plugin
+api: ["1.14.0","2.0.0"]
+main: TheDragonRing\RuleKit\Main
+load: STARTUP
+commands:
+    rulekit:
+        usage: /rulekit
+        description: Easily view all the info about RuleKit, version, author, commands and permissions! (aliases = /rk, /rulek, and /rkit)
+        aliases: rk, rulek, rkit
+    rules:
+        usage: /rules 1|2
+        description: Easily shows server rules (alias = /r)
+        aliases: r
+permissions:
+    rulekit:
+        default: true
+        description: Allows all RuleKit Features
+            children:
+                rulekit.info:
+                    default: true
+                    description: Allows use of /rulekit
+                rulekit.rules:
+                    default: true
+                    description: Allows use of /rules

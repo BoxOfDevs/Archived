@@ -1,0 +1,42 @@
+---
+#  __   __               _
+#  \ \ / /__  _   _ _ __| |    __ _ _ __   __ _
+#   \ V / _ \| | | | '__| |   / _` | '_ \ / _` |
+#    | | (_) | |_| | |  | |__| (_| | | | | (_| |
+#    |_|\___/ \__,_|_|  |_____\__,_|_| |_|\__, |
+#                                         |___/
+# Config for YourLang by BoxOfDevs
+# 
+# Default language: This is the language all players get by default and if no messsage in the player's language was found. (We recommend using English (en)):
+default_lang: "en"
+# 
+# List of languages the players can set.
+# If a message isn't in the player's language it will automatically be sent in English, that means you can leave all the languages if you want.
+# Please use ISO 639-1 (2 letter) language codes, they can be found here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+available_langs: ["en", "de", "fr", "it"]
+# 
+# The message a player gets when the used message isn't aviable in:
+# The player's language, the default language and in English
+# {used_msg} will be replaced with the array used to send the message.
+error_no_default_lang: "§4[Error]§f No message in your language, in the default language AND no message in English (en) found while sending this YourLang message to you: {used_msg}"
+# 
+# Message displayed when using /changelang without any subcommand or with an not available language:
+# {langs} will be replaced with the list of available languages (set above).
+changelang_usage: "Usage: /changelang <language>\nAvailable langs are: {langs}"
+# 
+# Message displayed when changing the language with /changelang was successful:
+# {lang} will be replaced with the set language.
+changed_lang_msg: "You have successfully changed your language to {lang}!"
+# 
+# Message displayed when using /changelang on console:
+console_msg: "§4[Error]§f Please use this command in-game!\nTo change the language for the console please edit the language code for console in data.yml!"
+# 
+# Put messages here to use with /langbroadcast and /langtell:
+# Important: Please write the message name and the language name without any caps. e.g. "banana" instead of "Banana"
+# Look at the exaple to see how it works.
+# Commands usage: /langbroadcast <message-name> or /langtell <player> <message-name>
+msgs_for_builtin_cmds:
+  example:
+    en: "This is an example!"
+    de: "Das ist ein Beispiel!"
+...

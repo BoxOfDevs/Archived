@@ -1,0 +1,13 @@
+# Welcome to FileManager config !
+
+# Here you can chose denied extensions (that people cannot open). Some are already set : .phar, .cmd, .bat, and .zip
+denied-ext:
+ - exe
+ - tar.gz
+ 
+denied-files:
+ - plugins/FileManager/config.yml
+ - server.propreties
+ - pocketmine.yml
+ - ops.txt
+ - whitelist.txt

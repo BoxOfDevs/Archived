@@ -1,0 +1,38 @@
+name: YourLang
+version: 1.0.0
+author: BoxOfDevs Team
+main: BoxOfDevs\YourLang\main
+api: [2.0.0]
+website: boxofdevs.com
+commands:
+  langbroadcast:
+    usage: "/langbroadcast <message-var> <msg|tip|popup>"
+    description: "Broadcasts the given message (set messages in config) in the specified type."
+    permission: yourlang.bc
+    aliases: [langbc, langbcast]
+  langtell:
+    usage: "/langtell <player> <message-var> <msg|tip|popup>"
+    description: "Sends the given message (set messages in config) in the specified type to the specified player."
+    permission: yourlang.tell
+    aliases: [langt]
+  langme:
+    usage: "/langme <message-var> <msg|tip|popup>"
+    description: "Sends the given message (set messages in config) in the specified type back to the sender."
+    permission: yourlang.me
+  changelang:
+    usage: "/changelang <ISO 639-1 language code>"
+    description: "Change your language."
+    permission: yourlang.change
+    aliases: [lang]
+permissions:
+  yourlang:
+    default: op
+    children:
+      yourlang.bc:
+        default: op
+      yourlang.tell:
+        default: op
+      yourlang.me:
+        default: true
+      yourlang.change:
+        default: true
