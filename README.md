@@ -1,9 +1,9 @@
 # Archived
-All of our archived repositories put into one. 
-
+All of our archived repositories put into one. <br>
+**The last updated date is for the actual code, not the readme, license or any file in the .github folder**
 ## List of Archived Repositories and their Last Code Update date:
 
-Plugin Name | Last Updated (Actual code, not licence) | Reason Deleted
+Plugin Name | Last Updated (Actual code) | Reason Deleted
 ------------ | ------------- | ------------
 RuleKit | Mar 11, 2016 | Old
 StaffChests | May 1, 2016 | Old
